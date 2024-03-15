@@ -1,0 +1,149 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  header {
+    background-color: #dbbd11;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex ;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 100px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #dbbd11;
+    font-size: 40px;
+    
+  }
+  
+  .destino {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .destino h3 {
+    margin-top: 0;
+    color: #dbbd11;
+  }
+  
+  .destino img {
+    width: 450px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px;object-fit: cover; 
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+   
+  }
+
+  .destino:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem em 10% ao passar o mouse */
+  }
+
+  .membro {
+    display: inline-block;
+    margin: 0 20px;
+    color: #dbbd11;
+  }
+  
+  .membro img {
+    border-radius: 50%;
+    max-width: 400px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #dbbd11;;
+  }
+  
+  form input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(212, 182, 45);
+  }
+  
+  form button {
+    background-color: #dbbd11;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:#dbbd11;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .banner0 {
+    background-color: #333; 
+    height: 370px; 
+    width: 100%; 
+  }
+  
+  .banner0 img {
+    width: 100%; 
+    height: 115%; 
+    object-fit: cover;
+  }
+
+  .banner1 {
+    background-color: #333; 
+    height: 350px; 
+    width: 100%; 
+  }
+
+  .banner1 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }
+
+  .texto {
+
+    color: #dbbd11;
+    text-align: justify;
+    font-size: 25px;
+
+  }
